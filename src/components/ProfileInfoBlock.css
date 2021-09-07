@@ -1,0 +1,17 @@
+section {
+  display: inline-block;
+  background-color: lightblue;
+}
+
+.row {
+  display: flex;
+  /* height: 80px; */
+  gap: 10px;
+} 
+
+/* .row p:not(:last-of-type) {
+  margin-right: 10px;
+} */
+
+/* if flex, use gap property */
+/* for each item, add margins */

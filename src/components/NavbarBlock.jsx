@@ -8,7 +8,7 @@ import './NavbarBlock.css';
   // article
 // footer
 
-function NavbarBlock () {
+function NavbarBlock ({ tweetCountAddOne }) {
 
   return (
     <nav>
@@ -20,7 +20,7 @@ function NavbarBlock () {
       
       <div>
         <input className="navbar-search" placeholder="Search"></input>
-        <button className="navbar-tweet">Tweet</button>
+        <button className="navbar-tweet" onClick={tweetCountAddOne}>Tweet</button>
       </div>
     </nav>
   )
