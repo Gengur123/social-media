@@ -1,9 +1,9 @@
-section {
+section.profile-info-block {
   display: inline-block;
   background-color: lightblue;
 }
 
-.row {
+.profile-info-block .row {
   display: flex;
   /* height: 80px; */
   gap: 10px;

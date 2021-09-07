@@ -17,10 +17,21 @@ function App () {
   return (
     <React.Fragment>
       <NavbarBlock tweetCountAddOne={addOne} />
-      <ProfileInfoBlock tweetCount={tweetCount} />
-      <FeedBlock />
-      <FollowerBlock />
-      <FollowingBlock />
+
+      <div class="row">
+        <div class="column">
+          <ProfileInfoBlock tweetCount={tweetCount} />
+        </div>
+
+        <div class="column">
+          <FeedBlock />
+        </div>
+
+        <div class="column">
+          <FollowerBlock />
+          <FollowingBlock />
+        </div>
+      </div>
     </React.Fragment>
   )
 }

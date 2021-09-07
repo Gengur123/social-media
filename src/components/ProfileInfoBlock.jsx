@@ -4,7 +4,7 @@ import './ProfileInfoBlock.css'
 function ProfileInfoBlock ({ tweetCount }) {
 
   return (
-    <section>
+    <section class="profile-info-block">
       <p>Allister Kays</p>
       <div className="row">
         <p>TWEETS <span>{ tweetCount }</span></p>
