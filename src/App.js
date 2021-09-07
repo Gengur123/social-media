@@ -9,10 +9,10 @@ function App () {
 
   return (
     <React.Fragment>
+      <NavbarBlock />
       <FeedBlock />
       <FollowerBlock />
       <FollowingBlock />
-      <NavbarBlock />
       <ProfileInfoBlock />
     </React.Fragment>
   )

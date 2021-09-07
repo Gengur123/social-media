@@ -1,0 +1,83 @@
+/* .className {
+  background-color: color;
+  color // text color
+  border // size-of-border-in-px solid border-color
+  padding: top-bottom-right-left
+  padding: top-bottom left-right
+} */
+
+/* font size default is 16px */
+
+/* 0-9A-F 0-15 */
+/* EEEEEE */
+
+
+nav {
+  --color1: lightblue;
+
+  background-color: hotpink;
+  border-bottom: 5px solid grey;
+  padding: 5px;
+
+  display: flex;
+  /* flex-direction: column; ROW IS DEFAULT */
+  /* the big rules: flex-start, flex-end, center, space-between, space-around */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-button {
+  background-color: #EEEEEE;
+  border: 3px solid #666666;
+  padding: 10px 15px;
+
+  /* cursor: default */
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: hotpink;
+}
+
+.navbar-button:not(:first-of-type) {
+  border-left: none;
+}
+
+.navbar-search {
+  background-color: honeydew;
+  border: 3px solid var(--color1);
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+
+.navbar-tweet {
+  background-color: #EEEEEE;
+  border: 3px solid var(--color1);
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-left: 25px;
+  
+  /* border-radius: px */
+  /* border-radius: stupid-high-pixel-value or 100vw */
+  /* cursor: default */
+  cursor: pointer;
+}
+
+/* .navbat-button:nth-child(1) */
+/* .navbar-button:first-of-type {
+  background-color: magenta;
+} */
+
+/* .navbar-button:last-of-type {
+  background-color: green;
+} */
+
+/* target nth child in the same group */
+/* .navbar-button:nth-child(2) {
+  background-color: blue;
+} */
+
+/* target every other element, starting at first */
+/* .navbar-button:nth-child(2n - 1) {
+  background-color: blue;
+} */
